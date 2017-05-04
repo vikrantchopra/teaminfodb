@@ -1,0 +1,58 @@
+2017-05-02T18:05:31.727844000 0.023557s notice: In recursion: removing file 'D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data\\tmp'
+2017-05-02T18:05:31.728844100 0.024051s warn: Trying to delete non-existent file 'D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data\\tmp'
+2017-05-02T18:05:31.730844300 0.026346s notice: Initializing directory D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data
+2017-05-02T18:05:31.736844900 0.032047s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data' did not already exist or is empty.)
+2017-05-02T18:05:31.736844901 0.032116s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-05-02T18:05:31.736844902 0.032178s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2017-05-02T18:05:31.736844903 0.032196s notice: Loading data from directory D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data
+2017-05-02T18:05:32.604889100 0.889774s info: Cache size is set to 200 MB
+2017-05-02T18:05:32.604889101 0.889783s warn: Cache size does not leave much memory for server and query overhead (available memory: 522 MB).
+2017-05-02T18:05:32.632891900 0.927973s notice: Listening for intracluster connections on port 59519
+2017-05-02T18:05:32.651893800 0.947400s notice: Listening for client driver connections on port 59523
+2017-05-02T18:05:32.651893801 0.947699s notice: Listening for administrative HTTP connections on port 59524
+2017-05-02T18:05:32.651893802 0.947723s notice: Listening on cluster address: 127.0.0.1
+2017-05-02T18:05:32.651893803 0.947754s notice: Listening on driver address: 127.0.0.1
+2017-05-02T18:05:32.651893804 0.947755s notice: Listening on http address: 127.0.0.1
+2017-05-02T18:05:32.651893805 0.947758s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-02T18:05:32.651893806 0.947768s notice: Server ready, "vchoprawin7b_u2g" 51dbb449-ce98-4e46-b62f-9597fb1055b4
+2017-05-02T18:05:33.736984300 2.031867s info: Table eb166b68-7db2-4b83-a513-008c7c1f93e4: Starting a new Raft election for term 1.
+2017-05-02T18:05:33.736984301 2.032458s info: Table eb166b68-7db2-4b83-a513-008c7c1f93e4: Added replica on this server.
+2017-05-02T18:05:33.762986900 2.057946s info: Table 82db51d3-8440-4a5b-9c5f-e7d6d27d9f4b: Starting a new Raft election for term 1.
+2017-05-02T18:05:33.762986901 2.058259s info: Table 82db51d3-8440-4a5b-9c5f-e7d6d27d9f4b: Added replica on this server.
+2017-05-02T18:05:33.814992100 2.110434s info: Table 7f53def2-3d15-478b-a509-aeda68501b8b: Starting a new Raft election for term 1.
+2017-05-02T18:05:33.814992101 2.110651s info: Table 7f53def2-3d15-478b-a509-aeda68501b8b: Added replica on this server.
+2017-05-02T18:05:33.840994700 2.136260s info: Table eb166b68-7db2-4b83-a513-008c7c1f93e4: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-02T18:05:33.852995900 2.148486s info: Table 82db51d3-8440-4a5b-9c5f-e7d6d27d9f4b: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-02T18:05:33.852995901 2.148555s info: Table 7f53def2-3d15-478b-a509-aeda68501b8b: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-02T18:05:35.775085500 4.056465s info: Table 8ff9a19f-007a-4e8f-8c4d-33e91414af67: Starting a new Raft election for term 1.
+2017-05-02T18:05:35.775085501 4.056925s info: Table 8ff9a19f-007a-4e8f-8c4d-33e91414af67: Added replica on this server.
+2017-05-02T18:05:35.795086300 4.081425s info: Table 8ff9a19f-007a-4e8f-8c4d-33e91414af67: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-02T18:24:54.319946200 1162.522723s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: Starting a new Raft election for term 1.
+2017-05-02T18:24:54.319946201 1162.522930s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: Added replica on this server.
+2017-05-02T18:24:54.339946600 1162.548767s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-02T18:24:55.603978600 1163.822057s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: Configuration is changing.
+2017-05-02T18:34:08.610201800 1716.786939s notice: Server got Control-C; shutting down...
+2017-05-02T18:34:08.611201900 1716.787435s notice: Shutting down client connections...
+2017-05-03T14:36:05.266694500 0.240181s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2017-05-03T14:36:05.266694501 0.240324s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2017-05-03T14:36:05.266694502 0.240372s notice: Loading data from directory D:\\Dev\\Angular2\\DB\\teaminfodb\\rethinkdb_data
+2017-05-03T14:36:05.886709300 0.858929s info: Cache size is set to 200 MB
+2017-05-03T14:36:05.886709301 0.858941s warn: Cache size does not leave much memory for server and query overhead (available memory: 1084 MB).
+2017-05-03T14:36:05.896709500 0.867990s notice: Listening for intracluster connections on port 49867
+2017-05-03T14:36:06.289724000 1.270014s notice: Listening for client driver connections on port 49868
+2017-05-03T14:36:06.299724200 1.270358s notice: Listening for administrative HTTP connections on port 49869
+2017-05-03T14:36:06.299724201 1.270389s notice: Listening on cluster address: 127.0.0.1
+2017-05-03T14:36:06.299724202 1.270390s notice: Listening on driver address: 127.0.0.1
+2017-05-03T14:36:06.299724203 1.270390s notice: Listening on http address: 127.0.0.1
+2017-05-03T14:36:06.299724204 1.270404s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-03T14:36:06.299724205 1.270406s notice: Server ready, "vchoprawin7b_u2g" 51dbb449-ce98-4e46-b62f-9597fb1055b4
+2017-05-03T14:36:07.319753400 2.291106s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: Starting a new Raft election for term 2.
+2017-05-03T14:36:07.369754400 2.343235s info: Table cab64734-7bc9-49d7-807c-28fef7b5babe: This server is Raft leader for term 2. Latest log index is 5.
+2017-05-03T14:36:07.800767900 2.780476s info: Table 8ff9a19f-007a-4e8f-8c4d-33e91414af67: Starting a new Raft election for term 2.
+2017-05-03T14:36:07.892772300 2.863390s info: Table eb166b68-7db2-4b83-a513-008c7c1f93e4: Starting a new Raft election for term 2.
+2017-05-03T14:36:07.952773500 2.923390s info: Table 82db51d3-8440-4a5b-9c5f-e7d6d27d9f4b: Starting a new Raft election for term 2.
+2017-05-03T14:36:07.972773900 2.950062s info: Table 8ff9a19f-007a-4e8f-8c4d-33e91414af67: This server is Raft leader for term 2. Latest log index is 5.
+2017-05-03T14:36:08.045775600 3.016515s info: Table 7f53def2-3d15-478b-a509-aeda68501b8b: Starting a new Raft election for term 2.
+2017-05-03T14:36:08.175778200 3.152117s info: Table eb166b68-7db2-4b83-a513-008c7c1f93e4: This server is Raft leader for term 2. Latest log index is 4.
+2017-05-03T14:36:08.175778201 3.152179s info: Table 82db51d3-8440-4a5b-9c5f-e7d6d27d9f4b: This server is Raft leader for term 2. Latest log index is 4.
+2017-05-03T14:36:08.185778400 3.164823s info: Table 7f53def2-3d15-478b-a509-aeda68501b8b: This server is Raft leader for term 2. Latest log index is 5.
