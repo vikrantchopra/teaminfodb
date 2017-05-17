@@ -11,6 +11,7 @@ import { HorizonService } from './services/horizon.service';
 
 import {PanelModule, InputTextModule, DataTableModule, SharedModule} from 'primeng/primeng';
 import {FieldsetModule} from 'primeng/primeng';
+import {InputTextareaModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {FieldsetModule} from 'primeng/primeng';
     FieldsetModule,
     InputTextModule,
     DataTableModule,
-    SharedModule
+    SharedModule,
+    InputTextareaModule
   ],
   providers: [HorizonService],
   bootstrap: [AppComponent]

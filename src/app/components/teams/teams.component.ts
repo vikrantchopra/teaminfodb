@@ -12,7 +12,8 @@ export class TeamsComponent implements OnInit {
 
   team: Team;
   items: any;
-  records: any[];
+  selectedRecords: any[];
+  
 
   table = this.horizon.table("teaminfo");
 
@@ -63,5 +64,7 @@ export class TeamsComponent implements OnInit {
     });
     this.ngOnInit();
   }
+
+  
 
 }
