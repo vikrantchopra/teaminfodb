@@ -1,51 +1,51 @@
 <form #teamForm="ngForm" (ngSubmit)="addRecord(teamForm.value)">
   <div class="ui-g">
-    <p-panel header="Add New Team Record" class="ui-g-8">
-      <p-fieldset legend="Team Details" class="ui-g-6">
-        <div class="form-group" class="ui-g-12">
-          <label class="ui-g-6">Team Name</label>
-          <input type="text" [(ngModel)]="team.name" name="name" #name="ngModel" class="form-control, ui-g-6" pInputText>
+    <p-panel header="Add New Team Record" class="ui-g-12">
+      <p-fieldset legend="Team Details" class="ui-g-12">
+        <div class="form-group" class="ui-g-3">
+          <label class="ui-g-12">Team Name</label>
+          <input type="text" [(ngModel)]="team.name" name="name" #name="ngModel" class="form-control, ui-g-10" pInputText>
         </div>
-        <div class="form-group" class="ui-g-12">
-          <label class="ui-g-6">Process</label>
-          <input type="text" [(ngModel)]="team.process" name="process" class="form-control, ui-g-6" #process="ngModel" pInputText>
+        <div class="form-group" class="ui-g-3">
+          <label class="ui-g-12">Process</label>
+          <input type="text" [(ngModel)]="team.process" name="process" class="form-control, ui-g-10" #process="ngModel" pInputText>
         </div>
-        <div class="form-group" class="ui-g-12">
-          <label class="ui-g-6">Coach</label>
-          <input type="text" [(ngModel)]="team.coach" name="coach" class="form-control, ui-g-6" #coach="ngModel" pInputText>
+        <div class="form-group" class="ui-g-3">
+          <label class="ui-g-12">Coach</label>
+          <input type="text" [(ngModel)]="team.coach" name="coach" class="form-control, ui-g-10" #coach="ngModel" pInputText>
         </div>
-        <div class="form-group" class="ui-g-12">
-          <label class="ui-g-6">Manager</label>
-          <input type="text" [(ngModel)]="team.manager" name="manager" class="form-control, ui-g-6" #manager="ngModel" pInputText>
+        <div class="form-group" class="ui-g-3">
+          <label class="ui-g-12">Manager</label>
+          <input type="text" [(ngModel)]="team.manager" name="manager" class="form-control, ui-g-10" #manager="ngModel" pInputText>
         </div>
       </p-fieldset>
 
-      <p-fieldset class="ui-g-6" legend="Member Details">
+      <p-fieldset class="ui-g-12" legend="Member Details">
         <div ngModelGroup="member">
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Member Name</label>
-            <input type="text" [(ngModel)]="team.member.name" name="name" class="form-control, ui-g-6" #memberName="ngModel" pInputText>
+          <div class="form-group" class="ui-g-2">
+            <label class="ui-g-12">Member Name</label>
+            <input type="text" [(ngModel)]="team.member.name" name="name" class="form-control, ui-g-12" #memberName="ngModel" pInputText>
           </div>
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Member Role</label>
-            <input type="text" [(ngModel)]="team.member.role" name="role" class="form-control, ui-g-6" #role="ngModel" pInputText>
+          <div class="form-group" class="ui-g-2">
+            <label class="ui-g-12">Role</label>
+            <input type="text" [(ngModel)]="team.member.role" name="role" class="form-control, ui-g-12" #role="ngModel" pInputText>
           </div>
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Phone</label>
-            <input type="text" [(ngModel)]="team.member.phone" name="phone" class="form-control, ui-g-6" #phone="ngModel" pInputText>
+          <div class="form-group" class="ui-g-2">
+            <label class="ui-g-12">Phone</label>
+            <input type="text" [(ngModel)]="team.member.phone" name="phone" class="form-control, ui-g-12" #phone="ngModel" pInputText>
           </div>
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Email</label>
-            <input type="text" [(ngModel)]="team.member.email" name="email" class="form-control, ui-g-6" #email="ngModel" pInputText>
+          <div class="form-group" class="ui-g-3">
+            <label class="ui-g-12">Email</label>
+            <input type="text" [(ngModel)]="team.member.email" name="email" class="form-control, ui-g-12" #email="ngModel" pInputText>
           </div>
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Extension</label>
-            <input type="text" [(ngModel)]="team.member.extension" name="extension" class="form-control, ui-g-6" #extension="ngModel"
+          <div class="form-group" class="ui-g-2">
+            <label class="ui-g-12">Extension</label>
+            <input type="text" [(ngModel)]="team.member.extension" name="extension" class="form-control, ui-g-12" #extension="ngModel"
               pInputText>
           </div>
-          <div class="form-group" class="ui-g-12">
-            <label class="ui-g-6">Cubicle</label>
-            <input type="text" [(ngModel)]="team.member.cubicle" name="cubicle" class="form-control, ui-g-6" #cubicle="ngModel" pInputText>
+          <div class="form-group" class="ui-g-1">
+            <label class="ui-g-12">Cubicle</label>
+            <input type="text" [(ngModel)]="team.member.cubicle" name="cubicle" class="form-control, ui-g-11" #cubicle="ngModel" pInputText>
           </div>
         </div>
       </p-fieldset>
@@ -53,23 +53,26 @@
       <button type="submit">Add</button>
     </p-panel>
   </div>
+
+
+  
 </form>
 
 <p-dataTable [value]="items | async" [(selection)]="selectedRecords" dataKey="id">
   <p-column [style]="{'width':'38px'}" selectionMode="multiple"></p-column>
-  <p-column field="Name" header="Name" [sortable]="true"></p-column>
-  <p-column field="Process" header="Process"></p-column>
-  <p-column field="Coach" header="Coach"></p-column>
-  <p-column field="Manager" header="Manager"></p-column>
-  <p-column field="Member.Name" header="Member Name"></p-column>
-  <p-column field="Member.Role" header="Member Role"></p-column>
-  <p-column field="Member.Extension" header="Extension"></p-column>
+  <p-column field="Name" header="Name" [sortable]="true" [style]="{'width':'120px'}"></p-column>
+  <p-column field="Process" header="Process" [style]="{'width':'110px'}"></p-column>
+  <p-column field="Coach" header="Coach" [style]="{'width':'160px'}"></p-column>
+  <p-column field="Manager" header="Manager" [style]="{'width':'160px'}"></p-column>
+  <p-column field="Member.Name" header="Member Name" [style]="{'width':'160px'}"></p-column>
+  <p-column field="Member.Role" header="Role" [style]="{'width':'100px'}"></p-column>
+  <p-column field="Member.Extension" header="Extension" [style]="{'width':'90px'}"></p-column>
   <p-column field="Member.Email" header="Email"></p-column>
-  <p-column field="Member.Phone" header="Phone"></p-column>
-  <p-column field="Member.Cubicle" header="Cubicle"></p-column>
+  <p-column field="Member.Phone" header="Phone" [style]="{'width':'130px'}"></p-column>
+  <p-column field="Member.Cubicle" header="Cubicle" [style]="{'width':'90px'}"></p-column>
 
   <p-footer>
-    <ul id="emailList31.">
+    <ul id="emailList">
       <li *ngFor="let record of selectedRecords" style="text-align: left" style="list-style:none; text-align:left">{{record.Member.Email}}</li>
     </ul>
   </p-footer>
